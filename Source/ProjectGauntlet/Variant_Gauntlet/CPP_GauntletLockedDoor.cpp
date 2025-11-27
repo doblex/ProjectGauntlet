@@ -23,7 +23,7 @@ void UCPP_GauntletLockedDoor::BeginPlay()
 	Super::BeginPlay();
 	
 	UStaticMeshComponent* staticMesh = nullptr;
-	if (UCPP_Gauntlet_FunctionLibrary::GetStaticMeshByTag(GetOwner(),DoorName, staticMesh))
+	if (UCPP_Gauntlet_FunctionLibrary::GetStaticMeshByTag(GetOwner(),DoorTag, staticMesh))
 	{
 		DoorMesh = staticMesh;
 	}
@@ -41,8 +41,6 @@ void UCPP_GauntletLockedDoor::TickComponent(float DeltaTime, ELevelTick TickType
 void UCPP_GauntletLockedDoor::Interact_Implementation()
 {
 	ACPP_GauntletCharacter* Pc = Cast<ACPP_GauntletCharacter>(GetWorld()->GetFirstPlayerController()->GetCharacter());
-	
-	UE_LOG( LogTemp, Log, TEXT("Character controller %p"), Pc)
 	
 	if (!IsValid(Pc)) return;
 	

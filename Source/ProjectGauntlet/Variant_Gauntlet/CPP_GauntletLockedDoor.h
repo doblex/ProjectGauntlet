@@ -24,7 +24,7 @@ protected:
 public:	
 	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Interact")
-	FName DoorName;
+	FName DoorTag;
 	
 	TObjectPtr<UStaticMeshComponent> DoorMesh;
 	
