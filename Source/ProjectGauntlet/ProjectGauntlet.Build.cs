@@ -24,20 +24,7 @@ public class ProjectGauntlet : ModuleRules
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 
 		PublicIncludePaths.AddRange(new string[] {
-			"ProjectGauntlet",
-			"ProjectGauntlet/Variant_Platforming",
-			"ProjectGauntlet/Variant_Platforming/Animation",
-			"ProjectGauntlet/Variant_Combat",
-			"ProjectGauntlet/Variant_Combat/AI",
-			"ProjectGauntlet/Variant_Combat/Animation",
-			"ProjectGauntlet/Variant_Combat/Gameplay",
-			"ProjectGauntlet/Variant_Combat/Interfaces",
-			"ProjectGauntlet/Variant_Combat/UI",
-			"ProjectGauntlet/Variant_SideScrolling",
-			"ProjectGauntlet/Variant_SideScrolling/AI",
-			"ProjectGauntlet/Variant_SideScrolling/Gameplay",
-			"ProjectGauntlet/Variant_SideScrolling/Interfaces",
-			"ProjectGauntlet/Variant_SideScrolling/UI"
+			"ProjectGauntlet"
 		});
 
 		// Uncomment if you are using Slate UI

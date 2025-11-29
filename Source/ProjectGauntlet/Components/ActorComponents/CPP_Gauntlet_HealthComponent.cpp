@@ -20,7 +20,7 @@ void UCPP_Gauntlet_HealthComponent::BeginPlay()
 
 void UCPP_Gauntlet_HealthComponent::DoDamage(float damage)
 {
-	if (CurrentHealth - damage < 0)
+	if (CurrentHealth - damage <=  0)
 	{
 		CurrentHealth = 0;
 		OnDeath.Broadcast();
@@ -30,6 +30,11 @@ void UCPP_Gauntlet_HealthComponent::DoDamage(float damage)
 		CurrentHealth -= damage;
 		OnHealthChanged.Broadcast(CurrentHealth, MaxHealth);
 	}
+}
+
+float UCPP_Gauntlet_HealthComponent::GetLifePercent()
+{
+	return FMath::Clamp(CurrentHealth / MaxHealth, 0, 1) ;
 }
 
 

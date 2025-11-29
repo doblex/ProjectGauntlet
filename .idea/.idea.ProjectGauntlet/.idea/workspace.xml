@@ -13,62 +13,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e84f5cf0-28bc-45c8-a4c6-ccaa8587a6e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_HealthComponent.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_HealthComponent.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGauntlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGauntlet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Door/Assets/Meshes/SM_Door.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Door/Assets/Meshes/SM_Door.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Door/Assets/Meshes/SM_DoorFrame_Corner.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Door/Assets/Meshes/SM_DoorFrame_Corner.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Door/Assets/Meshes/SM_DoorFrame_Edge.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Door/Assets/Meshes/SM_DoorFrame_Strt.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Door/BP_DoorFrame.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/Materials/MI_GlowNT.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/Materials/M_GradientGlow.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/Materials/M_SimpleGlow.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularBand.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularBand.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularGlow.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularGlow.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/NS_JumpPad.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/BP_JumpPad.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Target/Assets/SM_TargetBaseMesh.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Target/Assets/SM_TargetBaseMesh.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Target/BP_WobbleTarget.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Materials/MF_ProcGrid.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Materials/MI_DefaultColorway.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_02.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Materials/M_FlatCol.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Materials/M_PrototypeGrid.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Meshes/SM_ChamferCube.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Meshes/SM_ChamferCube.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Meshes/SM_Cube.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Meshes/SM_Cylinder.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Meshes/SM_Cylinder.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Meshes/SM_Ramp.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Meshes/SM_SM_ChamferCube.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Textures/T_GridChecker_A.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/BluePrints/Actors/Collectibles/BP_Gauntlet_Collectible_Key.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Variant_Gauntlet/BluePrints/Actors/Collectibles/BP_Gauntlet_Collectible_Key.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/BluePrints/Actors/Doors/BP_Gauntlet_BaseDoor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Variant_Gauntlet/BluePrints/Actors/Doors/BP_Gauntlet_BaseDoor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/BluePrints/Actors/Doors/BP_Gauntlet_LockedDoor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Variant_Gauntlet/BluePrints/Actors/Doors/BP_Gauntlet_LockedDoor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/BluePrints/BP_Gauntlet_Character.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Variant_Gauntlet/BluePrints/BP_Gauntlet_Character.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/Input/IMC_Default.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Variant_Gauntlet/Input/IMC_Default.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/Levels/Level.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Variant_Gauntlet/Levels/Level.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Variant_Gauntlet/CPP_GauntletCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_GauntletCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Variant_Gauntlet/CPP_GauntletCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_GauntletCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Variant_Gauntlet/CPP_GauntletItemKey.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_GauntletItemKey.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Variant_Gauntlet/CPP_GauntletItemKey.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_GauntletItemKey.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Variant_Gauntlet/CPP_GauntletLockedDoor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_GauntletLockedDoor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Variant_Gauntlet/CPP_GauntletLockedDoor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_GauntletLockedDoor.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Variant_Gauntlet/CPP_GauntletPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_GauntletPlayerController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Variant_Gauntlet/CPP_GauntletPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_GauntletPlayerController.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Variant_Gauntlet/CPP_Gauntlet_BobblingComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_BobblingComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Variant_Gauntlet/CPP_Gauntlet_BobblingComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_BobblingComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Variant_Gauntlet/CPP_Gauntlet_FunctionLibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_Gauntlet_FunctionLibrary.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Variant_Gauntlet/CPP_Gauntlet_FunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_Gauntlet_FunctionLibrary.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Variant_Gauntlet/CPP_Gauntlet_MoveOverPoints.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/SceneComponents/CPP_Gauntlet_MoveOverPoints.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Variant_Gauntlet/CPP_Gauntlet_MoveOverPoints.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/SceneComponents/CPP_Gauntlet_MoveOverPoints.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Variant_Gauntlet/Interactable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Interfaces/Interactable.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Variant_Gauntlet/Interactable.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Interfaces/Interactable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/Materials/M_GauntletDoor.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/Resources/T_GauntletDoor.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectGauntlet.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectGauntlet.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_GauntletItemKey.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_ItemKey.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_GauntletItemKey.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_ItemKey.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_GauntletLockedDoor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_KeyLockedDoor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_GauntletLockedDoor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_KeyLockedDoor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_HealthComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_HealthComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_HealthComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_HealthComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_GauntletCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_GauntletCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_GauntletCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_GauntletCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_Gauntlet_FunctionLibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_Gauntlet_FunctionLibrary.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_Gauntlet_FunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_Gauntlet_FunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Interfaces/Interactable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Interfaces/Interactable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Interfaces/Interactable.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Interfaces/Interactable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/ProjectGauntlet.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/ProjectGauntlet.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,14 +49,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://7" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/ProjectGauntlet/UHT/Interactable.gen.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_GauntletLockedDoor.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_GauntletLockedDoor.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://10" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_Button.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_Button.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_Crate.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_Crate.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_LockedDoor.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_LockedDoor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_BobblingComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_BobblingComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_HealthComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_HealthComponent.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_KeyLockedDoor.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_KeyLockedDoor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Components/SceneComponents/CPP_Gauntlet_MoveOverPoints.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_GauntletCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_GauntletCharacter.h" root0="FORCE_HIGHLIGHTING" />
@@ -103,26 +75,43 @@
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Core/Private/UObject/UnrealNames.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Core/Private/Windows/WindowsErrorOutputDevice.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Core/Public/Containers/Array.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Core/Public/Containers/BitArray.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Core/Public/Containers/Map.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Core/Public/Math/TransformVectorized.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/CoreUObject/Private/UObject/Class.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/CoreUObject/Public/Templates/Casts.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/CoreUObject/Public/UObject/Class.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/CoreUObject/Public/UObject/Interface.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectHandle.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectPtr.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBase.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Classes/Components/ActorComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Classes/Components/InputComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Classes/Components/SceneComponent.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Classes/Engine/DamageEvents.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Classes/Engine/EngineTypes.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/DamageType.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/Pawn.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/PlayerController.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Private/Actor.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Private/GameplayStatics.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Private/Pawn.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Public/CollisionQueryParams.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Public/EngineUtils.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Public/TimerManager.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/UMG/Public/Blueprint/UserWidget.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/UMG/Public/Components/Visual.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/UMG/Public/Components/Widget.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="361CUigpRg5emjasxv45A6Gub1m" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -262,7 +251,12 @@
       <workItem from="1764164712793" duration="6000" />
       <workItem from="1764173241634" duration="13398000" />
       <workItem from="1764230758604" duration="27032000" />
-      <workItem from="1764280013940" duration="10437000" />
+      <workItem from="1764280013940" duration="10853000" />
+      <workItem from="1764326700212" duration="36760000" />
+      <workItem from="1764382119637" duration="530000" />
+      <workItem from="1764382727943" duration="1000" />
+      <workItem from="1764382774905" duration="4395000" />
+      <workItem from="1764414847221" duration="4411000" />
     </task>
     <servers />
   </component>

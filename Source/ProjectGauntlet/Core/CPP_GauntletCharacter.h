@@ -18,6 +18,9 @@ public:
 	ACPP_GauntletCharacter();
 
 protected:
+	
+	UObject* ObjInRange;
+	
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	virtual void FellOutOfWorld(const class UDamageType& dmgType) override;
@@ -61,6 +64,7 @@ public:
 	void Look(const struct FInputActionValue& Value);
 	void StartJump(const struct FInputActionValue& Value);
 	void StopJump(const struct FInputActionValue& Value);
+	bool GetInteractable(UObject*& InteractableObject);
 	void Interact(const struct FInputActionValue& Value);
 	
 };

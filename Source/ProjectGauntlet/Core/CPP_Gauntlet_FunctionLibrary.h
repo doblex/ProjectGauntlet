@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Actors/CPP_Gauntlet_LockedDoor.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "CPP_Gauntlet_FunctionLibrary.generated.h"
 
@@ -16,4 +17,5 @@ class PROJECTGAUNTLET_API UCPP_Gauntlet_FunctionLibrary : public UBlueprintFunct
 	
 	public:
 	static bool GetStaticMeshByTag(const AActor* Owner, const FName Tag, UStaticMeshComponent*& OutComponent);
+	static bool GetDoorById(const UObject* WorldInstance, int Id, ACPP_Gauntlet_LockedDoor*& OutDoor);
 };

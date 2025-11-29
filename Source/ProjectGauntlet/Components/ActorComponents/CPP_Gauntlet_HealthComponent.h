@@ -21,7 +21,6 @@ public:
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
-	void DoDamage(float damage);
 
 public:	
 	// Called every frame
@@ -36,4 +35,7 @@ public:
 	
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Health Component")
 	FOnDeath OnDeath;
+	
+	void DoDamage(float damage);
+	float GetLifePercent();
 };

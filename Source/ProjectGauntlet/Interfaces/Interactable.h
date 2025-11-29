@@ -20,8 +20,17 @@ class PROJECTGAUNTLET_API IInteractable
 {
 	GENERATED_BODY()
 
+public:
+	FStaticMaterial Shader;
+	
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category="Interaction")
 	void Interact();
+	
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category="Interaction")
+	void Selected();
+	
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category="Interaction")
+	void UnSelected();
 };

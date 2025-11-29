@@ -4,6 +4,7 @@
 #include "Core/CPP_GauntletCharacter.h"
 
 #include "EnhancedInputComponent.h"
+#include "ShaderPrintParameters.h"
 #include "Interfaces/Interactable.h"
 #include "GameFramework/GameModeBase.h"
 #include "Kismet/KismetSystemLibrary.h"
@@ -13,7 +14,6 @@ ACPP_GauntletCharacter::ACPP_GauntletCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
 }
 
 // Called when the game starts or when spawned
@@ -90,6 +90,25 @@ void ACPP_GauntletCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	UObject* InteractableObject = nullptr;
+	if (GetInteractable(InteractableObject))
+	{
+		if (InteractableObject != ObjInRange)
+		{
+			if (ObjInRange != nullptr)	IInteractable::Execute_UnSelected(ObjInRange);
+			
+			ObjInRange = InteractableObject;
+			IInteractable::Execute_Selected(ObjInRange);
+		}
+	}
+	else
+	{
+		if (ObjInRange != nullptr)
+		{
+			IInteractable::Execute_UnSelected(ObjInRange);
+			ObjInRange = nullptr;
+		}
+	}
 }
 
 void ACPP_GauntletCharacter::Move(const struct FInputActionValue& Value)
@@ -118,8 +137,9 @@ void ACPP_GauntletCharacter::StopJump(const struct FInputActionValue& Value)
 	StopJumping();
 }
 
-void ACPP_GauntletCharacter::Interact(const struct FInputActionValue& Value)
+bool ACPP_GauntletCharacter::GetInteractable(UObject*& InteractableObject)
 {
+	InteractableObject = nullptr;
 	ETraceTypeQuery TraceType{};
 	TArray<AActor*> ActorsToIgnore;
 	
@@ -135,29 +155,33 @@ void ACPP_GauntletCharacter::Interact(const struct FInputActionValue& Value)
 			TraceType,
 			false,
 			ActorsToIgnore,
-			EDrawDebugTrace::ForDuration,
+			EDrawDebugTrace::ForOneFrame,
 			Hit,
 			true
 			);
 	
 	AActor* OverlappedActor = Hit.GetActor();
 	
-	if (bIsOverlaping && IsValid(OverlappedActor))
+	if (!bIsOverlaping || !IsValid(OverlappedActor)) return false;
+	
+	if( OverlappedActor->Implements<UInteractable>())
 	{
-		UE_LOG(LogTemp, Log, TEXT("Overlapping"));
-		
-		if (IsValid(OverlappedActor))
-		{
-			TArray<UActorComponent*> InteractableComponent = OverlappedActor->GetComponentsByInterface(UInteractable::StaticClass());
-			if (InteractableComponent.IsEmpty()) return;
-			
-			UActorComponent* Comp = InteractableComponent[0];
-
-			if (Comp && Comp->GetClass()->ImplementsInterface(UInteractable::StaticClass()))
-			{
-				IInteractable::Execute_Interact(Comp);
-			}
-		}
+		InteractableObject = OverlappedActor;
+		return true;
 	}
+
+	TArray<UActorComponent*> InteractableComponents = OverlappedActor->GetComponentsByInterface(UInteractable::StaticClass());
+	
+	if (InteractableComponents.IsEmpty()) return false;
+		
+	InteractableObject = InteractableComponents[0];
+	return true;
+}
+
+void ACPP_GauntletCharacter::Interact(const struct FInputActionValue& Value)
+{
+	if (!IsValid(ObjInRange)) return;
+	
+	IInteractable::Execute_Interact(ObjInRange);
 }
 
