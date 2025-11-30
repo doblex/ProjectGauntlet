@@ -83,11 +83,14 @@ void ACPP_Gauntlet_LockedDoor::Close()
 
 void ACPP_Gauntlet_LockedDoor::CheckForDoorOpening()
 {
-	bool bDoorOpening = false;
+	bool bDoorOpening = true;
 	
 	for (auto Element : RegisteredButtons)
 	{
-		bDoorOpening = Element.Value;
+		if (!Element.Value)
+		{
+			bDoorOpening = false;
+		}
 	}
 	
 	bDoorOpening ? Open() : Close();

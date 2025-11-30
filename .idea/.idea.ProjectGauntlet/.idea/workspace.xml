@@ -14,13 +14,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e84f5cf0-28bc-45c8-a4c6-ccaa8587a6e3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGauntlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGauntlet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/Core/BP_GauntletGameInstance.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/Core/BP_GauntletGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Variant_Gauntlet/Core/BP_GauntletGameMode.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/Core/BP_GauntletPlayerController.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/Levels/Level.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Variant_Gauntlet/Levels/Level.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/Levels/MainMenu.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Variant_Gauntlet/Levels/MainMenu.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectGauntlet.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectGauntlet.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_LockedDoor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_LockedDoor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_Gauntlet_GameInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_Gauntlet_GameInstance.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_Gauntlet_GameInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_Gauntlet_GameInstance.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +31,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://28" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://15" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_Button.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_Button.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_Crate.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_Crate.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_EndPoint.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_EndPoint.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_LockedDoor.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_LockedDoor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Components/ActorComponents/CPP_Gauntlet_BobblingComponent.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -81,6 +80,7 @@
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectHandle.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectPtr.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBase.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBaseUtility.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Classes/Components/ActorComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Classes/Components/InputComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Classes/Components/SceneComponent.h" root0="FORCE_HIGHLIGHTING" />
@@ -98,6 +98,7 @@
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Private/GameplayStatics.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Private/Pawn.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Private/PlayerController.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Private/World.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Private/WorldSettings.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Public/CollisionQueryParams.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../epic games/UE_5.6/Engine/Source/Runtime/Engine/Public/EngineUtils.h" root0="FORCE_HIGHLIGHTING" />
@@ -262,6 +263,7 @@
       <workItem from="1764382727943" duration="1000" />
       <workItem from="1764382774905" duration="4395000" />
       <workItem from="1764414847221" duration="17228000" />
+      <workItem from="1764506668520" duration="9160000" />
     </task>
     <servers />
   </component>
