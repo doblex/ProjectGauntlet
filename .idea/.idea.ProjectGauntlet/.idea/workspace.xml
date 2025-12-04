@@ -14,10 +14,16 @@
   <component name="ChangeListManager">
     <list default="true" id="e84f5cf0-28bc-45c8-a4c6-ccaa8587a6e3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectGauntlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectGauntlet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/Levels/Level.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Variant_Gauntlet/Levels/Level.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_LockedDoor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_LockedDoor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_Gauntlet_GameInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_Gauntlet_GameInstance.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_Gauntlet_GameInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ProjectGauntlet/Core/CPP_Gauntlet_GameInstance.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/BluePrints/Actors/BP_GauntletLockedDoor.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/BluePrints/Actors/Collectibles/BP_GauntletCollectible_Key.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/BluePrints/Actors/Doors/BP_GauntletLockedDoor.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/BluePrints/Actors/Doors/BP_Gauntlet_LockedDoor.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/BluePrints/Actors/Porta.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/Core/BP_GauntletGameMode.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/Core/BP_Gauntlet_GameInstance.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/Levels/MainMenu.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Variant_Gauntlet/Levels/MainMenu.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Variant_Gauntlet/Materials/M_Interactable.uasset" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +37,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://15" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_Button.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_Button.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ProjectGauntlet/Actors/CPP_Gauntlet_Crate.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -263,7 +268,8 @@
       <workItem from="1764382727943" duration="1000" />
       <workItem from="1764382774905" duration="4395000" />
       <workItem from="1764414847221" duration="17228000" />
-      <workItem from="1764506668520" duration="9160000" />
+      <workItem from="1764506668520" duration="9762000" />
+      <workItem from="1764782625001" duration="1552000" />
     </task>
     <servers />
   </component>
